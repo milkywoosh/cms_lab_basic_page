@@ -1,0 +1,69 @@
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+} 
+    
+body {
+    height: 100%;
+    background: linear-gradient(90deg, #4caf50 75%, #ffffff 25%);
+}
+
+button {
+    border-radius: 20px ;
+    border: 1px solid white;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: #4caf50;
+    cursor:pointer;
+
+}
+
+.leftSide {
+    margin: 40px;
+    text-align: left;
+    color: white;
+}
+.rightSide {
+    margin: 40px;
+}
+
+.jumbo-title h1{
+    font-size: 30px;
+    font-size: 3vw;
+    color: white;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 550px;
+    height: auto;
+    /* margin: auto;
+    display: block; */
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    position: absolute;
+
+}
+
+@media only screen and (max-width: 768px)
+{
+
+ 
+}
+@media only screen and (min-width: 5000px)
+{
+    body {
+        max-width: 5000px;
+    }
+ 
+}
+
